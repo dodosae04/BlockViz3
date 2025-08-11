@@ -62,7 +62,7 @@ namespace BlockViz.Presentation.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BlockViz.Presentation;component/views/scheduleview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BlockViz.Presentation;V1.0.0.0;component/views/scheduleview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ScheduleView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

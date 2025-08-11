@@ -16,9 +16,10 @@ namespace BlockViz.Applications.Services
     public class ScheduleArrangementService
     {
         // ── 설정 값 ────────────────────────────────────────────
-        private const double Scale = 0.15;  // BlockArrangementService와 동일
+        private const double Scale = 0.15;     // BlockArrangementService와 동일
         private const double GapRatio = 0.7;   // Breadth 대비 간격 비율
-        private const double RatePerDay = 0.7;   // 하루당 높이 증가량
+        private const double RatePerDay = 0.7; // 하루당 높이 증가량
+        private const double FactoryModelScale = 0.8;
 
         // 작업장 중심 좌표
         private static readonly Dictionary<int, Point3D> WorkplaceCenters = new()
@@ -42,20 +43,22 @@ namespace BlockViz.Applications.Services
             {6, (12*6, 4*5)},
         };
 
-        // 색상 팔레트
+        // 색상 팔레트(간단)
         private static readonly Brush[] Palette = {
             Brushes.Red, Brushes.Orange, Brushes.Yellow,
             Brushes.LimeGreen, Brushes.DeepSkyBlue, Brushes.MediumPurple
         };
 
+        // 공장 모델 캐시
+        private ModelVisual3D? _factoryCached;
+
         public IEnumerable<ModelVisual3D> Arrange(IEnumerable<Block> blocks, DateTime currentDate)
         {
             var visuals = new List<ModelVisual3D>();
 
-            // 1) 조명·바닥·공장
+            // 1) 조명 + 공장 FBX(바닥판 대체)
             visuals.Add(new DefaultLights());
-            visuals.Add(BuildFactoryFloor());
-            var factoryModel = LoadFactoryModel();
+            var factoryModel = GetOrLoadFactoryModel();
             if (factoryModel != null) visuals.Add(factoryModel);
 
             // 2) 작업장 프레임 + 번호 라벨
@@ -70,10 +73,11 @@ namespace BlockViz.Applications.Services
             var allEnds = blocks.Select(b => b.End).ToList();
             if (!allStarts.Any() || !allEnds.Any())
                 return visuals;
+
             DateTime globalStart = allStarts.Min();
             DateTime globalEnd = allEnds.Max();
 
-            // 4) 작업장별 모든 블록 배치
+            // 4) 작업장별 모든 블록 배치 (시간→높이 누적)
             foreach (var wpGroup in blocks
                 .OrderBy(b => b.Start)
                 .GroupBy(b => b.DeployWorkplace)
@@ -86,7 +90,7 @@ namespace BlockViz.Applications.Services
                 var (workX, _) = WorkplaceSizes[wpId];
                 double fullWidth = workX * Scale;
 
-                // 프로젝트별 그룹화
+                // 프로젝트별 그룹화(트랙 동적 개수)
                 var projectGroups = wpGroup
                     .GroupBy(b => b.Name)
                     .Select((g, idx) => (Blocks: g.OrderBy(b => b.Start).ToList(), Index: idx))
@@ -114,12 +118,12 @@ namespace BlockViz.Applications.Services
                         var blk = projBlocks[i];
                         accX += gaps[i];
 
-                        // 높이: 시작일부터 End/now 중 빠른 쪽
+                        // 높이: 시작일부터 End/now 중 빠른 쪽까지 누적
                         var effEnd = currentDate < blk.End ? currentDate : blk.End;
-                        double elapsed = (effEnd - blk.Start).TotalDays;
+                        double elapsed = Math.Max((effEnd - blk.Start).TotalDays, 0);
                         double h = Math.Max(elapsed * RatePerDay * Scale, 0.1);
 
-                        // baseline: 시작일까지 누적 높이
+                        // 베이스라인: 시작일까지 누적 높이
                         double baseline = Math.Max(
                             (blk.Start - globalStart).TotalDays * RatePerDay * Scale, 0.0);
 
@@ -143,6 +147,7 @@ namespace BlockViz.Applications.Services
                             Height = h,
                             Material = MaterialHelper.CreateMaterial(color),
                             BackMaterial = MaterialHelper.CreateMaterial(color),
+                            // 세로 누적을 위쪽으로 보이게 X축 90도 회전(기존 동작 유지)
                             Transform = new RotateTransform3D(
                                 new AxisAngleRotation3D(new Vector3D(1, 0, 0), 90), bc)
                         };
@@ -164,7 +169,83 @@ namespace BlockViz.Applications.Services
             return visuals;
         }
 
-        // ── 헬퍼: 날짜 축 (Y축) ────────────────────────────────────
+        // ── 공장 모델: FBX 로드/배치 (BlockArrangementService와 동일 규칙) ──
+        private ModelVisual3D? GetOrLoadFactoryModel()
+        {
+            if (_factoryCached != null) return _factoryCached;
+
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Models", "A.fbx");
+            if (!File.Exists(path)) return null;
+
+            // FBX → WPF(Y-up) 보정: X:-90 / 작업장 축 보정: Y:+90
+            const double ROT_X = -90;
+            const double ROT_Y = 90;
+            const double ROT_Z = 0;
+
+            // 공장판 "윗면"을 y=0에 정렬해서 로드
+            var visual = FbxModelImporterWpf.LoadAsVisual(
+                path,
+                rotXDeg: ROT_X,
+                rotYDeg: ROT_Y,
+                rotZDeg: ROT_Z,
+                alignGroundTopToZero: true
+            );
+
+            // 작업장 전체 사각형의 중앙(XZ)에 위치 + 요구 변환
+            var (cx, cz) = ComputeFactoryCenterXZ();
+
+            var tg = new Transform3DGroup();
+
+            if (Math.Abs(FactoryModelScale - 1.0) > 1e-6)
+                tg.Children.Add(new ScaleTransform3D(FactoryModelScale, FactoryModelScale, FactoryModelScale));
+
+            // 병뚜껑 돌리듯: Y축 180°
+            tg.Children.Add(new RotateTransform3D(
+                new AxisAngleRotation3D(new Vector3D(0, 1, 0), 180)));
+
+            // 작업장 바닥보다 0.2 아래
+            tg.Children.Add(new TranslateTransform3D(cx, -0.8, cz));
+
+            // 기존(Importer) 변환과 합성
+            if (visual.Transform is Transform3DGroup g1)
+            {
+                var composed = new Transform3DGroup();
+                foreach (var t in g1.Children) composed.Children.Add(t);
+                foreach (var t in tg.Children) composed.Children.Add(t);
+                visual.Transform = composed;
+            }
+            else
+            {
+                var composed = new Transform3DGroup();
+                composed.Children.Add(visual.Transform ?? Transform3D.Identity);
+                foreach (var t in tg.Children) composed.Children.Add(t);
+                visual.Transform = composed;
+            }
+
+            _factoryCached = visual;
+            return _factoryCached;
+        }
+
+        // 작업장 범위로부터 “공장 중앙(XZ)” 계산 (BlockArrangementService와 동일)
+        private (double X, double Z) ComputeFactoryCenterXZ()
+        {
+            double minX = double.PositiveInfinity, maxX = double.NegativeInfinity;
+            double minZ = double.PositiveInfinity, maxZ = double.NegativeInfinity;
+
+            foreach (var kv in WorkplaceCenters)
+            {
+                var c = kv.Value;
+                var s = WorkplaceSizes[kv.Key];
+                minX = Math.Min(minX, c.X - s.X / 2);
+                maxX = Math.Max(maxX, c.X + s.X / 2);
+                minZ = Math.Min(minZ, c.Z - s.Z / 2);
+                maxZ = Math.Max(maxZ, c.Z + s.Z / 2);
+            }
+
+            return ((minX + maxX) / 2.0, (minZ + maxZ) / 2.0);
+        }
+
+        // ── 날짜 축 (Y축) ────────────────────────────────────
         private ModelVisual3D BuildDateScaleRuler(bool left, DateTime start, DateTime end)
         {
             var group = new ModelVisual3D();
@@ -172,7 +253,7 @@ namespace BlockViz.Applications.Services
             double height = totalDays * RatePerDay * Scale;
             double intervalDays = Math.Max(1, totalDays / 10.0);
 
-            double x = left ? -90 : 50;
+            double x = left ? -90 : 50; // 기존 위치 유지
             double z = 0;
 
             var line = new LinesVisual3D { Color = Colors.Black, Thickness = 1 };
@@ -200,40 +281,7 @@ namespace BlockViz.Applications.Services
             return group;
         }
 
-        // ── 헬퍼: 공장 바닥 ─────────────────────────────────────────
-        private ModelVisual3D BuildFactoryFloor()
-        {
-            double minX = double.PositiveInfinity, maxX = double.NegativeInfinity;
-            double minZ = double.PositiveInfinity, maxZ = double.NegativeInfinity;
-            foreach (var kv in WorkplaceCenters)
-            {
-                var c = kv.Value;
-                var s = WorkplaceSizes[kv.Key];
-                minX = Math.Min(minX, c.X - s.X / 2);
-                maxX = Math.Max(maxX, c.X + s.X / 2);
-                minZ = Math.Min(minZ, c.Z - s.Z / 2);
-                maxZ = Math.Max(maxZ, c.Z + s.Z / 2);
-            }
-            double width = (maxX - minX) - 20;
-            double length = (maxZ - minZ) + 60;
-            double cx = (minX + maxX) / 2;
-            double cz = (minZ + maxZ) / 2;
-            var center3D = new Point3D(cx, -2, cz);
-
-            var floor = new BoxVisual3D
-            {
-                Center = center3D,
-                Width = width + 35,
-                Length = length,
-                Height = 0.1,
-                Material = MaterialHelper.CreateMaterial(Brushes.Gold)
-            };
-            floor.Transform = new RotateTransform3D(
-                new AxisAngleRotation3D(new Vector3D(1, 0, 0), 90), center3D);
-            return floor;
-        }
-
-        // ── 헬퍼: 작업장 프레임 ─────────────────────────────────────
+        // ── 헬퍼: 작업장 프레임/라벨 ─────────────────────────────
         private ModelVisual3D BuildFrameAtCenter(int id)
         {
             var c = WorkplaceCenters[id];
@@ -252,7 +300,6 @@ namespace BlockViz.Applications.Services
             return lines;
         }
 
-        // ── 헬퍼: 작업장 번호 라벨 ─────────────────────────────────
         private ModelVisual3D BuildLabelAtTopLeft(int id)
         {
             var c = WorkplaceCenters[id];
@@ -263,22 +310,11 @@ namespace BlockViz.Applications.Services
             return new BillboardTextVisual3D
             {
                 Text = $"작업장 {id}",
-                Position = new Point3D(x, y, z),
+                Position = new Point3D(x, y + 2, z),
                 Foreground = Brushes.Black,
                 Background = Brushes.Transparent,
                 FontSize = 14
             };
-        }
-
-        // ── 헬퍼: 공장 모델 로드 ───────────────────────────────────
-        private ModelVisual3D? LoadFactoryModel()
-        {
-            string path = Path.Combine(
-                AppDomain.CurrentDomain.BaseDirectory, "Models", "factory.obj");
-            if (!File.Exists(path)) return null;
-            var importer = new ModelImporter();
-            var model = importer.Load(path);
-            return new ModelVisual3D { Content = model };
         }
     }
 }

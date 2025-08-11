@@ -3,12 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\services\\blockarrangementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\services\\blockarrangementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\views\\piview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|solutionrelative:blockviz.presentation\\views\\piview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\views\\piview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|solutionrelative:blockviz.presentation\\views\\piview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\views\\percenttofractionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|solutionrelative:blockviz.presentation\\views\\percenttofractionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\views\\ipiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\views\\ipiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\viewmodels\\piviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\viewmodels\\piviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\models\\oxycolorextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\models\\oxycolorextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\models\\pieoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\models\\pieoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\services\\fbxmodelimporterwpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\services\\fbxmodelimporterwpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\services\\schedulearrangementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\services\\schedulearrangementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\services\\blockarrangementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\services\\blockarrangementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\views\\factoryview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|solutionrelative:blockviz.presentation\\views\\factoryview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\viewmodels\\factoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\viewmodels\\factoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\viewmodels\\scheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\viewmodels\\scheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\views\\scheduleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\views\\scheduleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|solutionrelative:blockviz.presentation\\views\\scheduleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\viewmodels\\scheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\viewmodels\\scheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\views\\factoryview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|solutionrelative:blockviz.presentation\\views\\factoryview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\viewmodels\\factoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\viewmodels\\factoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\models\\a.meta||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|solutionrelative:blockviz.presentation\\models\\a.meta||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -61,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\services\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\services\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\services\\iblockarrangementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\viewmodels\\ganttviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\viewmodels\\ganttviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\viewmodels\\piviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|solutionrelative:blockviz.application\\viewmodels\\piviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCA03B07-A0A3-41E7-A3B8-0820CD19C17B}|BlockViz.Application\\BlockViz.Applications.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.application\\services\\simulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -141,14 +173,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\views\\shellwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|solutionrelative:blockviz.presentation\\views\\shellwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\views\\piview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|solutionrelative:blockviz.presentation\\views\\piview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|c:\\users\\1son2\\desktop\\now blockviz\\blockviz_0718\\blockviz_0602\\blockviz\\blockviz.presentation\\views\\piview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AE9EE454-487D-495E-829B-9846E30BF12C}|BlockViz.Presentation\\BlockViz.Presentation.csproj|solutionrelative:blockviz.presentation\\views\\piview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -158,24 +182,154 @@
       "DocumentGroups": [
         {
           "DockedHeight": 485,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScheduleArrangementService.cs",
-              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\ScheduleArrangementService.cs",
-              "RelativeDocumentMoniker": "BlockViz.Application\\Services\\ScheduleArrangementService.cs",
-              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\ScheduleArrangementService.cs*",
-              "RelativeToolTip": "BlockViz.Application\\Services\\ScheduleArrangementService.cs*",
-              "ViewState": "AgIAAAYBAAAAAAAAAAAAwBMBAAAnAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IPiView.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Views\\IPiView.cs",
+              "RelativeDocumentMoniker": "BlockViz.Application\\Views\\IPiView.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Views\\IPiView.cs",
+              "RelativeToolTip": "BlockViz.Application\\Views\\IPiView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:33:35.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T08:30:07.287Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "OxyColorExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Models\\OxyColorExtensions.cs",
+              "RelativeDocumentMoniker": "BlockViz.Application\\Models\\OxyColorExtensions.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Models\\OxyColorExtensions.cs",
+              "RelativeToolTip": "BlockViz.Application\\Models\\OxyColorExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T08:04:51.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PiView.xaml",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\PiView.xaml",
+              "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\PiView.xaml",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\PiView.xaml",
+              "RelativeToolTip": "BlockViz.Presentation\\Views\\PiView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-06T09:08:41.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PiViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\PiViewModel.cs",
+              "RelativeDocumentMoniker": "BlockViz.Application\\ViewModels\\PiViewModel.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\PiViewModel.cs",
+              "RelativeToolTip": "BlockViz.Application\\ViewModels\\PiViewModel.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwHYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:07:27.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModuleController.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Controllers\\ModuleController.cs",
+              "RelativeDocumentMoniker": "BlockViz.Application\\Controllers\\ModuleController.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Controllers\\ModuleController.cs",
+              "RelativeToolTip": "BlockViz.Application\\Controllers\\ModuleController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAswDIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:19:24.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PiView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\PiView.xaml.cs",
+              "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\PiView.xaml.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\PiView.xaml.cs",
+              "RelativeToolTip": "BlockViz.Presentation\\Views\\PiView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:12:31.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PercentToFractionConverter.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\PercentToFractionConverter.cs",
+              "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\PercentToFractionConverter.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\PercentToFractionConverter.cs",
+              "RelativeToolTip": "BlockViz.Presentation\\Views\\PercentToFractionConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T08:06:17.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PieOptions.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Models\\PieOptions.cs",
+              "RelativeDocumentMoniker": "BlockViz.Application\\Models\\PieOptions.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Models\\PieOptions.cs",
+              "RelativeToolTip": "BlockViz.Application\\Models\\PieOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T08:01:43.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FbxModelImporterWpf.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\FbxModelImporterWpf.cs",
+              "RelativeDocumentMoniker": "BlockViz.Application\\Services\\FbxModelImporterWpf.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\FbxModelImporterWpf.cs",
+              "RelativeToolTip": "BlockViz.Application\\Services\\FbxModelImporterWpf.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T05:58:21.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlockArrangementService.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\BlockArrangementService.cs",
+              "RelativeDocumentMoniker": "BlockViz.Application\\Services\\BlockArrangementService.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\BlockArrangementService.cs",
+              "RelativeToolTip": "BlockViz.Application\\Services\\BlockArrangementService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:19:07.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FactoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\FactoryViewModel.cs",
+              "RelativeDocumentMoniker": "BlockViz.Application\\ViewModels\\FactoryViewModel.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\FactoryViewModel.cs",
+              "RelativeToolTip": "BlockViz.Application\\ViewModels\\FactoryViewModel.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T07:48:39.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ScheduleView.xaml",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\ScheduleView.xaml",
+              "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\ScheduleView.xaml",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\ScheduleView.xaml",
+              "RelativeToolTip": "BlockViz.Presentation\\Views\\ScheduleView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-07T05:58:10.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "FactoryView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\FactoryView.xaml.cs",
               "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\FactoryView.xaml.cs",
@@ -183,50 +337,47 @@
               "RelativeToolTip": "BlockViz.Presentation\\Views\\FactoryView.xaml.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwCoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:53:32.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:53:32.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "ScheduleArrangementService.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\ScheduleArrangementService.cs",
+              "RelativeDocumentMoniker": "BlockViz.Application\\Services\\ScheduleArrangementService.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\ScheduleArrangementService.cs",
+              "RelativeToolTip": "BlockViz.Application\\Services\\ScheduleArrangementService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T06:33:35.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ScheduleView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\ScheduleView.xaml.cs",
               "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\ScheduleView.xaml.cs",
-              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\ScheduleView.xaml.cs*",
-              "RelativeToolTip": "BlockViz.Presentation\\Views\\ScheduleView.xaml.cs*",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\ScheduleView.xaml.cs",
+              "RelativeToolTip": "BlockViz.Presentation\\Views\\ScheduleView.xaml.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAwCMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:33:37.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T06:33:37.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ScheduleView.xaml",
-              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\ScheduleView.xaml",
-              "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\ScheduleView.xaml",
-              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\ScheduleView.xaml*",
-              "RelativeToolTip": "BlockViz.Presentation\\Views\\ScheduleView.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-07T05:58:10.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlockArrangementService.cs",
-              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\BlockArrangementService.cs",
-              "RelativeDocumentMoniker": "BlockViz.Application\\Services\\BlockArrangementService.cs",
-              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\BlockArrangementService.cs",
-              "RelativeToolTip": "BlockViz.Application\\Services\\BlockArrangementService.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAIwKoAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ShellViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\ShellViewModel.cs",
+              "RelativeDocumentMoniker": "BlockViz.Application\\ViewModels\\ShellViewModel.cs",
+              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\ShellViewModel.cs",
+              "RelativeToolTip": "BlockViz.Application\\ViewModels\\ShellViewModel.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:19:07.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T05:00:06.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "ScheduleViewModel.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\ScheduleViewModel.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\ViewModels\\ScheduleViewModel.cs",
@@ -234,12 +385,11 @@
               "RelativeToolTip": "BlockViz.Application\\ViewModels\\ScheduleViewModel.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAAwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T12:32:44.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T12:32:44.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\App.xaml.cs",
               "RelativeDocumentMoniker": "BlockViz.Presentation\\App.xaml.cs",
@@ -247,12 +397,11 @@
               "RelativeToolTip": "BlockViz.Presentation\\App.xaml.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAEwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T06:40:46.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T06:40:46.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "BlockColorMap.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\BlockColorMap.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Services\\BlockColorMap.cs",
@@ -260,12 +409,11 @@
               "RelativeToolTip": "BlockViz.Application\\Services\\BlockColorMap.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAQwDMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T07:06:09.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T07:06:09.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "BlockVisual.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Models\\BlockVisual.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Models\\BlockVisual.cs",
@@ -273,12 +421,11 @@
               "RelativeToolTip": "BlockViz.Application\\Models\\BlockVisual.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwBMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:19:28.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T06:19:28.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "IFactoryView.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Views\\IFactoryView.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Views\\IFactoryView.cs",
@@ -286,12 +433,11 @@
               "RelativeToolTip": "BlockViz.Application\\Views\\IFactoryView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T08:47:54.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T08:47:54.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "ExcelImportService.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\ExcelImportService.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Services\\ExcelImportService.cs",
@@ -299,25 +445,11 @@
               "RelativeToolTip": "BlockViz.Application\\Services\\ExcelImportService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAEwBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:19:11.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T06:19:11.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FactoryViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\FactoryViewModel.cs",
-              "RelativeDocumentMoniker": "BlockViz.Application\\ViewModels\\FactoryViewModel.cs",
-              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\FactoryViewModel.cs",
-              "RelativeToolTip": "BlockViz.Application\\ViewModels\\FactoryViewModel.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAkwF4AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:48:39.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "A.meta",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Models\\A.meta",
               "RelativeDocumentMoniker": "BlockViz.Presentation\\Models\\A.meta",
@@ -325,12 +457,11 @@
               "RelativeToolTip": "BlockViz.Presentation\\Models\\A.meta",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-03T06:57:51.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T06:57:51.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "IScheduleService.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\IScheduleService.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Services\\IScheduleService.cs",
@@ -338,12 +469,11 @@
               "RelativeToolTip": "BlockViz.Application\\Services\\IScheduleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:19:15.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T06:19:15.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "ScheduleService.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\ScheduleService.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Services\\ScheduleService.cs",
@@ -351,25 +481,11 @@
               "RelativeToolTip": "BlockViz.Application\\Services\\ScheduleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:19:05.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T06:19:05.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ModuleController.cs",
-              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Controllers\\ModuleController.cs",
-              "RelativeDocumentMoniker": "BlockViz.Application\\Controllers\\ModuleController.cs",
-              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Controllers\\ModuleController.cs",
-              "RelativeToolTip": "BlockViz.Application\\Controllers\\ModuleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:19:24.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "IBlockArrangementService.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\IBlockArrangementService.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Services\\IBlockArrangementService.cs",
@@ -377,12 +493,11 @@
               "RelativeToolTip": "BlockViz.Application\\Services\\IBlockArrangementService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:19:14.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T06:19:14.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "Block.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Domain\\Models\\Block.cs",
               "RelativeDocumentMoniker": "BlockViz.Domain\\Models\\Block.cs",
@@ -390,12 +505,11 @@
               "RelativeToolTip": "BlockViz.Domain\\Models\\Block.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAABIwB0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:59:27.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T06:59:27.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "IExcelImpoetService.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Views\\IExcelImpoetService.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Views\\IExcelImpoetService.cs",
@@ -403,12 +517,11 @@
               "RelativeToolTip": "BlockViz.Application\\Views\\IExcelImpoetService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:58:32.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T06:58:32.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "IModuleController.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Controllers\\IModuleController.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Controllers\\IModuleController.cs",
@@ -416,12 +529,11 @@
               "RelativeToolTip": "BlockViz.Application\\Controllers\\IModuleController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T07:11:31.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T07:11:31.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "SimulationService.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\SimulationService.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Services\\SimulationService.cs",
@@ -429,12 +541,11 @@
               "RelativeToolTip": "BlockViz.Application\\Services\\SimulationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:19:16.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T06:19:16.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "GanttViewModel.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\GanttViewModel.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\ViewModels\\GanttViewModel.cs",
@@ -442,25 +553,11 @@
               "RelativeToolTip": "BlockViz.Application\\ViewModels\\GanttViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T07:14:02.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T07:14:02.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PiViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\PiViewModel.cs",
-              "RelativeDocumentMoniker": "BlockViz.Application\\ViewModels\\PiViewModel.cs",
-              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\PiViewModel.cs",
-              "RelativeToolTip": "BlockViz.Application\\ViewModels\\PiViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T09:07:27.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "RibbonViewModel.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\RibbonViewModel.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\ViewModels\\RibbonViewModel.cs",
@@ -468,12 +565,11 @@
               "RelativeToolTip": "BlockViz.Application\\ViewModels\\RibbonViewModel.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAswEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T07:05:37.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T07:05:37.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "BlockProperties.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Models\\BlockProperties.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Models\\BlockProperties.cs",
@@ -481,12 +577,11 @@
               "RelativeToolTip": "BlockViz.Application\\Models\\BlockProperties.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T07:18:25.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T07:18:25.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "BlockViz.Presentation.csproj",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\BlockViz.Presentation.csproj",
               "RelativeDocumentMoniker": "BlockViz.Presentation\\BlockViz.Presentation.csproj",
@@ -494,12 +589,11 @@
               "RelativeToolTip": "BlockViz.Presentation\\BlockViz.Presentation.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-18T08:52:29.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T08:52:29.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "Workspace.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Domain\\Models\\Workspace.cs",
               "RelativeDocumentMoniker": "BlockViz.Domain\\Models\\Workspace.cs",
@@ -507,24 +601,22 @@
               "RelativeToolTip": "BlockViz.Domain\\Models\\Workspace.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T08:02:19.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T08:02:19.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "FactoryView.xaml",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\FactoryView.xaml",
               "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\FactoryView.xaml",
               "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\FactoryView.xaml",
               "RelativeToolTip": "BlockViz.Presentation\\Views\\FactoryView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-09T07:44:19.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T07:44:19.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "IntExtensions.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Services\\IntExtensions.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Services\\IntExtensions.cs",
@@ -532,12 +624,11 @@
               "RelativeToolTip": "BlockViz.Application\\Services\\IntExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T07:18:41.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T07:18:41.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "IGanttView.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Views\\IGanttView.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Views\\IGanttView.cs",
@@ -545,24 +636,22 @@
               "RelativeToolTip": "BlockViz.Application\\Views\\IGanttView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T08:57:07.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T08:57:07.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "TreeView.xaml",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\TreeView.xaml",
               "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\TreeView.xaml",
               "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\TreeView.xaml",
               "RelativeToolTip": "BlockViz.Presentation\\Views\\TreeView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-06T06:30:55.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T06:30:55.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "TreeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\ViewModels\\TreeViewModel.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\ViewModels\\TreeViewModel.cs",
@@ -570,12 +659,11 @@
               "RelativeToolTip": "BlockViz.Application\\ViewModels\\TreeViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T06:30:50.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T06:30:50.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "IRibbonView.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\Views\\IRibbonView.cs",
               "RelativeDocumentMoniker": "BlockViz.Application\\Views\\IRibbonView.cs",
@@ -583,12 +671,11 @@
               "RelativeToolTip": "BlockViz.Application\\Views\\IRibbonView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T07:06:41.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T07:06:41.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "ShellWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\ShellWindow.xaml.cs",
               "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\ShellWindow.xaml.cs",
@@ -596,45 +683,18 @@
               "RelativeToolTip": "BlockViz.Presentation\\Views\\ShellWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:53:56.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:53:56.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "ShellWindow.xaml",
               "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\ShellWindow.xaml",
               "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\ShellWindow.xaml",
               "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\ShellWindow.xaml",
               "RelativeToolTip": "BlockViz.Presentation\\Views\\ShellWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T09:10:16.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "PiView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\PiView.xaml.cs",
-              "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\PiView.xaml.cs",
-              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\PiView.xaml.cs",
-              "RelativeToolTip": "BlockViz.Presentation\\Views\\PiView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T09:12:31.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "PiView.xaml",
-              "DocumentMoniker": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\PiView.xaml",
-              "RelativeDocumentMoniker": "BlockViz.Presentation\\Views\\PiView.xaml",
-              "ToolTip": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\Views\\PiView.xaml",
-              "RelativeToolTip": "BlockViz.Presentation\\Views\\PiView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T09:08:41.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T09:10:16.669Z"
             }
           ]
         }

@@ -1,0 +1,414 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\BlockViz.Presentation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\BlockViz.Applications.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\BlockViz.Applications.csproj",
+        "projectName": "BlockViz.Applications",
+        "projectPath": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\BlockViz.Applications.csproj",
+        "packagesPath": "C:\\Users\\1son2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1son2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Domain\\BlockViz.Domain.csproj": {
+                "projectPath": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Domain\\BlockViz.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
+            "Extended.Wpf.Toolkit": {
+              "target": "Package",
+              "version": "[4.7.25104.5739, )"
+            },
+            "Fluent.Ribbon": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "HelixToolkit": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "HelixToolkit.SharpDX.Assimp": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "HelixToolkit.Wpf": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "HelixToolkit.Wpf.SharpDX": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.14.0, )"
+            },
+            "OxyPlot.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "OxyPlot.Wpf": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "PropertyTools.Wpf": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.RegularExpressions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "waf": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Domain\\BlockViz.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Domain\\BlockViz.Domain.csproj",
+        "projectName": "BlockViz.Domain",
+        "projectPath": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Domain\\BlockViz.Domain.csproj",
+        "packagesPath": "C:\\Users\\1son2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1son2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
+            "Extended.Wpf.Toolkit": {
+              "target": "Package",
+              "version": "[4.7.25104.5739, )"
+            },
+            "Fluent.Ribbon": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "HelixToolkit": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "HelixToolkit.SharpDX.Assimp": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "HelixToolkit.Wpf": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "HelixToolkit.Wpf.SharpDX": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.14.0, )"
+            },
+            "OxyPlot.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "OxyPlot.Wpf": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "PropertyTools.Wpf": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.RegularExpressions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "waf": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\BlockViz.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\BlockViz.Presentation.csproj",
+        "projectName": "BlockViz.Presentation",
+        "projectPath": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\BlockViz.Presentation.csproj",
+        "packagesPath": "C:\\Users\\1son2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1son2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\BlockViz.Applications.csproj": {
+                "projectPath": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Application\\BlockViz.Applications.csproj"
+              },
+              "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Domain\\BlockViz.Domain.csproj": {
+                "projectPath": "C:\\Users\\1son2\\Desktop\\now BlockViz\\BlockViz_0718\\BlockViz_0602\\BlockViz\\BlockViz.Domain\\BlockViz.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Extended.Wpf.Toolkit": {
+              "target": "Package",
+              "version": "[4.7.25104.5739, )"
+            },
+            "Fluent.Ribbon": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "HelixToolkit": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "HelixToolkit.SharpDX.Assimp": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "HelixToolkit.Wpf": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "HelixToolkit.Wpf.SharpDX": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.14.0, )"
+            },
+            "OxyPlot.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "OxyPlot.Wpf": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "PropertyTools.Wpf": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.RegularExpressions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "waf": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
