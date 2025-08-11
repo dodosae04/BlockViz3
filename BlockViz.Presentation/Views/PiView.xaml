@@ -18,8 +18,7 @@
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <oxy:PlotView Model="{Binding}"
-                                  Width="120" Height="120"
-                                  Margin="4"/>
+                                  Margin="8,0,16,0"/>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>
