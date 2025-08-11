@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Media;
+using OxyPlot;
 
 namespace BlockViz.Applications.Models
 {
-    internal class OxyColorExtensions
+    public static class OxyColorExtensions
     {
+        public static OxyColor ToOxyColor(this Color color)
+        {
+            return OxyColor.FromArgb(color.A, color.R, color.G, color.B);
+        }
     }
 }
